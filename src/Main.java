@@ -99,9 +99,9 @@ public class Main {
         var allWorkingHours = 640;
         var workingHours = 8;
         var companyEmployee = allWorkingHours / workingHours;
-        System.out.println("Всего работников в компании — " + companyEmployee + " человек");
+        System.out.println("Всего работников в компании — " + companyEmployee + " человек.");
         companyEmployee = companyEmployee + 90;
         var newAllWorkingHours = companyEmployee * workingHours;
-        System.out.println("Если в компании работает " + companyEmployee + " человек, то всего " + newAllWorkingHours + " часов работы может быть поделено между сотрудниками");
+        System.out.println("Если в компании работает " + companyEmployee + " человек, то всего " + newAllWorkingHours + " часов работы может быть поделено между сотрудниками.");
     }
 }
